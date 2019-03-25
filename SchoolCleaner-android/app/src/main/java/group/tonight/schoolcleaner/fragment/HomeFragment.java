@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
@@ -39,7 +40,7 @@ import group.tonight.schoolcleaner.model.ProductBean;
  * 时间：2019/3/22 0022 17:08
  * 版本：V0.0.1
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment implements View.OnClickListener {
 
     private RecyclerView mRecyclerView;
     private List<ProductBean> mDataList;
@@ -48,6 +49,7 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         ViewDataBinding viewDataBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_home, container, false);
+        viewDataBinding.setVariable(BR.handler, this);
 
         FragmentHomeBinding binding = ((FragmentHomeBinding) viewDataBinding);
         mRecyclerView = binding.recyclerView;
@@ -59,7 +61,7 @@ public class HomeFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        InputStream inputStream = getResources().openRawResource(R.raw.productlist);
+        InputStream inputStream = getResources().openRawResource(R.raw.product_list);
         Type type = new TypeToken<DataListResponseBean<ProductBean>>() {
         }.getType();
         DataListResponseBean<ProductBean> dataListResponseBean = new Gson().fromJson(new InputStreamReader(inputStream), type);
@@ -71,6 +73,20 @@ public class HomeFragment extends Fragment {
             mDataList.addAll(dataList);
         }
         mRecyclerView.setAdapter(mAdapter);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.clear:
+                Toast.makeText(v.getContext(), "清空搜索框", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.search:
+                Toast.makeText(v.getContext(), "搜索物品", Toast.LENGTH_SHORT).show();
+                break;
+            default:
+                break;
+        }
     }
 
     public class DataBindingViewHolder extends RecyclerView.ViewHolder {

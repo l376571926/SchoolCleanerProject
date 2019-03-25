@@ -19,6 +19,14 @@ import group.tonight.schoolcleaner.fragment.MyCollectionFragment;
 import group.tonight.schoolcleaner.fragment.MyFragment;
 import group.tonight.schoolcleaner.fragment.SellerFragment;
 
+/**
+ * 公司：深圳市中泰智丰物联网科技有限公司
+ * 项目：校园清道夫
+ * 简述：主界面框架
+ * 作者：https://github.com/l376571926
+ * 时间：2019/3/25 0025 14:37
+ * 版本：V0.0.1
+ */
 public class HomeActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
 
     private HomeFragment mHomeFragment;

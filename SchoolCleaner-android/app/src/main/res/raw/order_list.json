@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "msg": null,
+  "data": [
+    {
+      "id": 1,
+      "productId": 3020,
+      "userId": 1060,
+      "status":0,//0待确认购买订单，1待收货状态，
+      "createTime": 0
+    }
+  ]
+}

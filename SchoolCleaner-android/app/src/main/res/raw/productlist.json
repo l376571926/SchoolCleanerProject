@@ -1,0 +1,55 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": [
+    {
+      "id": 1,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    },
+    {
+      "id": 2,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    },
+    {
+      "id": 3,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    },
+    {
+      "id": 4,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    },
+    {
+      "id": 5,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    },
+    {
+      "id": 6,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    },
+    {
+      "id": 7,
+      "name": "华为 nova 2s",
+      "price": 2200.55,
+      "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+      "create_time": 0
+    }
+  ]
+}

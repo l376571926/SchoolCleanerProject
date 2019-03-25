@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "msg": "",
+  "data": {
+    "id": 1,
+    "name": "华为 nova 2s",
+    "price": 2200.55,
+    "image": "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2513547531,2987373146&fm=173&s=68A2851902C272E4891FDDC70300C0A0&w=640&h=427&img.JPEG",
+    "create_time": 0,
+    "description": "测试产品详情信息",
+    "address": "广东省深圳市龙华区民治大道1079号"
+  }
+}
